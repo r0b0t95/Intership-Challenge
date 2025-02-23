@@ -1,8 +1,40 @@
-# React + Vite
+## Intership challenge using ReactJS and Vitest by Robert Chaves P.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Commands
 
-Currently, two official plugins are available:
+### Running application
+```
+    npm run dev
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Running test
+```powershell
+    npm run test
+```
+
+## API Reference and EndPoints
+
+#### Get Users
+```http
+    GET https://reqres.in/api/users?page2
+```
+
+#### Get User
+```http
+    GET https://reqres.in/api/users/2
+```
+
+#### Post User
+```http
+    POST https://reqres.in/api/users
+```
+
+#### Patch User
+```http
+    PATCH https://reqres.in/api/users/2
+```
+
+#### delete User
+```http
+    DELETE https://reqres.in/api/users/2
+```
