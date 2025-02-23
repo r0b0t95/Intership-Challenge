@@ -1,0 +1,11 @@
+h2, span {
+    color: #eee;
+}
+
+.card {
+    border: solid 1px rgb(153, 27, 153);
+}
+
+.card:hover {
+    background-color: #bbb;
+}
